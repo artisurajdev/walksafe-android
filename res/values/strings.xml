@@ -2,7 +2,9 @@
 <resources>
 
     <string name="app_name">WalkSafe</string>
-    <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
-
+    <string name="default_progress_message">Loading&#8230;</string>
+    
+    <string name="parse_application_id">zvKoI9owKM7p607h9jsnxJ6YAzqOJmMJfpgFYr7b</string>
+	<string name="parse_client_key">08jIY5b7M4gqC74GTzQwDA8EyMhkT1NH2oCOYyC3</string>
+    
 </resources>

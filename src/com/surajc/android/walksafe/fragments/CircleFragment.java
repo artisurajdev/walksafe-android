@@ -24,8 +24,8 @@ import com.surajc.android.walksafe.listeners.CircleClickListener;
 import com.surajc.android.walksafe.utils.CircleConstants;
 import com.surajc.android.walksafe.views.Circle;
 
-public class CircleFragment extends Fragment {
-
+public class CircleFragment extends BaseFragment {
+	
 	private HashMap<Integer, Circle> mCircles;
 
 	@Override
@@ -64,7 +64,6 @@ public class CircleFragment extends Fragment {
 	}
 
 	private CircleClickListener getCircleClickListener() {
-
 		CircleClickListener listener = new CircleClickListener() {
 
 			@Override
@@ -75,7 +74,6 @@ public class CircleFragment extends Fragment {
 		};
 
 		return listener;
-
 	}
 
 	public void launchContactPicker(int index) {
